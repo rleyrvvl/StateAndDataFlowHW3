@@ -11,6 +11,10 @@
 		06A52E6626EFC71F00659BB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E6526EFC71F00659BB6 /* ContentView.swift */; };
 		06A52E6826EFC72000659BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A52E6726EFC72000659BB6 /* Assets.xcassets */; };
 		06A52E6B26EFC72000659BB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A52E6A26EFC72000659BB6 /* Preview Assets.xcassets */; };
+		06A52E7326EFCC6900659BB6 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7226EFCC6900659BB6 /* TimeCounter.swift */; };
+		06A52E7526EFD54100659BB6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7426EFD54100659BB6 /* RegisterView.swift */; };
+		06A52E7726EFD65B00659BB6 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7626EFD65B00659BB6 /* UserManager.swift */; };
+		06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7826EFD8AD00659BB6 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		06A52E6726EFC72000659BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06A52E6A26EFC72000659BB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06A52E6C26EFC72000659BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A52E7226EFCC6900659BB6 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		06A52E7426EFD54100659BB6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		06A52E7626EFD65B00659BB6 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		06A52E7826EFD8AD00659BB6 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				06A52E6326EFC71F00659BB6 /* StateAndDataFlowApp.swift */,
 				06A52E6526EFC71F00659BB6 /* ContentView.swift */,
+				06A52E7426EFD54100659BB6 /* RegisterView.swift */,
+				06A52E7826EFD8AD00659BB6 /* StarterView.swift */,
+				06A52E7626EFD65B00659BB6 /* UserManager.swift */,
+				06A52E7226EFCC6900659BB6 /* TimeCounter.swift */,
 				06A52E6726EFC72000659BB6 /* Assets.xcassets */,
 				06A52E6C26EFC72000659BB6 /* Info.plist */,
 				06A52E6926EFC72000659BB6 /* Preview Content */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A52E7326EFCC6900659BB6 /* TimeCounter.swift in Sources */,
+				06A52E7526EFD54100659BB6 /* RegisterView.swift in Sources */,
+				06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */,
 				06A52E6626EFC71F00659BB6 /* ContentView.swift in Sources */,
+				06A52E7726EFD65B00659BB6 /* UserManager.swift in Sources */,
 				06A52E6426EFC71F00659BB6 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
